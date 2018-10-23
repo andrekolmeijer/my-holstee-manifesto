@@ -1,0 +1,224 @@
+
+/* 
+Google Fonts
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+*/
+
+html, body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/***** Grid *****/
+
+.full-width {
+    height: 60px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.block {
+    background-size: cover;
+    height: 300px;
+}
+
+/***** General Document *****/
+
+.lighter-font {
+    font-weight: 200;
+    line-height: 18px;
+}
+
+nav {
+    color: #828282;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #918274;
+}
+
+a:hover {
+    color: #b7987b;
+    border-bottom: 1px solid #b7987b;
+}
+
+/***** Header Area *****/
+
+header {
+    background: url('../img/asphalt-fog-foggy-229014.jpg') no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #828282;
+    font-size: 30px;
+    margin: 0;
+    padding: 62px 0px 62px 60px;
+}
+
+header ul {
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 62px 60px 62px 0;
+    text-align: right;
+    width: 540px;
+}
+
+header li {
+    display: inline-block;
+    margin: 11px 0;
+}
+
+header p {
+    clear: both;
+    color: #918274;
+    font-size: 72px;
+    line-height: 62px;
+    margin: 0;
+    padding: 20px 60px 20px 60px;
+}
+
+header p span {
+    color: #b7987b;
+}
+
+/***** Main Area *****/
+
+.nocolor {
+    background: #ffffff;
+    font-weight: 200;
+}
+
+.color {
+    background: #918274;
+}
+
+.emphasize {
+    color: #918274;
+    font-weight: normal;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-16 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.font-24 {
+    font-size: 24px;
+    line-height: 24px;          /* Inspector accepted, though no change. To effect <span> use display: inline-block. */
+}
+
+#block-0,
+#block-3,
+#block-4,
+#block-7,
+#block-8 {
+    color: #b7987b;
+}
+
+#block-1,
+#block-2,
+#block-5,
+#block-6,
+#block-9 {
+    color: #ffffff;
+}
+
+#block-1,
+#block-9 {
+    text-align: center;
+}
+
+#block-2,
+#block-3,
+#block-4,
+#block-5,
+#block-6,
+#block-8,
+#block-9 {
+    height: 130px;
+    padding: 25px 0;
+}
+
+#block-0 {
+    font-size: 33px;
+    height: 180px;
+}
+
+#block-1 {
+    font-size: 40px;
+    height: 110px;
+    padding: 35px 0;
+}
+
+#block-7 {
+    font-size: 29px;
+    height: 80px;
+    padding: 50px 0;
+}
+
+main {
+    height: 1500px;
+    margin: 60px 0;
+}
+
+main section p {
+    font-size: 30px;
+    margin: 60px;
+    padding: 0;
+    text-align: justify;
+}
+
+/***** Footer Area *****/
+
+footer {
+    background: #e2e1e0;
+    background-size: cover;
+    clear: both;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 21px 30px 21px 30px;
+}
